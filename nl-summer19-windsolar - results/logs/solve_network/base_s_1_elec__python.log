@@ -1,0 +1,23 @@
+INFO:pypsa.io:Imported network base_s_1_elec_.nc has buses, carriers, generators, loads
+INFO:__main__:No expandable lines found. Skipping iterative solving.
+INFO:linopy.model: Solve problem using Highs solver
+INFO:linopy.model:Solver logs written to `results\nl-summer19-windsolar\logs\solve_network\base_s_1_elec__solver.log`.
+INFO:linopy.model:Solver options:
+ - solver: simplex
+ - parallel: on
+ - primal_feasibility_tolerance: 1e-5
+ - dual_feasibility_tolerance: 1e-5
+ - random_seed: 123
+INFO:linopy.io: Writing time: 0.03s
+INFO:linopy.solvers:Log file at C:\Users\DELL\Documents\Python - Energy Modeling\pypsa-eur\results\nl-summer19-windsolar\logs\solve_network\base_s_1_elec__solver.log
+INFO:linopy.constants: Optimization successful: 
+Status: ok
+Termination condition: optimal
+Solution: 73 primals, 151 duals
+Objective: 3.17e+07
+Solver model: available
+Solver message: Optimal
+
+INFO:pypsa.optimization.optimize:The shadow-prices of the constraints Generator-fix-p-lower, Generator-fix-p-upper, Generator-ext-p-lower, Generator-ext-p-upper were not assigned to the network.
+INFO:__main__:Maximum memory usage: (543.609375, 1754337311.8781168)
+INFO:pypsa.io:Exported network 'base_s_1_elec_.nc' contains: buses, generators, carriers, loads
