@@ -31,6 +31,8 @@ nl-electricity-summer-2023/
 
 ├── config.yaml                                  # Custom configuration for NL, 2023, summer week
 
+├── plots/                                       # Model output plots
+
 ├── result_analysis_script.py                    # Script to load, run, and plot results
 
 ├── resources/                                   # Docs, papers, links, or maps used as refs
@@ -45,7 +47,7 @@ nl-electricity-summer-2023/
 
 📈 Sample Output
 
-<img width="1200" height="600" alt="dispatch_plot" src="https://github.com/user-attachments/assets/ae74e65b-fd87-4371-9cc4-19cd77bbb2e1" />
+<img width="1200" height="600" alt="dispatch_plot" src="https://github.com/user-attachments/assets/5314f648-4028-4d4f-9427-be8b966257e9" />
 
 🧠 Learnings
 - Customized PyPSA-Eur for single-country modeling (NL)
@@ -60,6 +62,7 @@ nl-electricity-summer-2023/
 
 📬 Contact
 Feel free to reach out via GitHub or LinkedIn for questions, collaborations, or rants about PyPSA bugs.
+
 
 
 
