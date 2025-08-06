@@ -1,12 +1,59 @@
-# NL Electricity System Simulation – Summer 2023
+🇳🇱 NL Electricity System Simulation – Summer 2023
+A week-long simulation of the Dutch power grid (July 2023) using PyPSA-Eur, focused on renewable integration and dispatch optimization.
 
-This project simulates the Dutch electricity system over one week in July 2023 using [PyPSA-Eur](https://github.com/PyPSA/pypsa-eur). The focus was on dispatch optimization using offshore wind, solar, and legacy thermal generation (oil, coal).
+🔍 Objective
+Model and analyze how the Netherlands’ electricity demand can be met using a mix of offshore wind (DC), solar PV, and legacy thermal generation (oil, coal). This project was designed as a portfolio demonstrator for energy systems modeling.
 
-## Key Features
-- Week-long simulation using ERA5 weather and ENTSO-E demand data
-- Technologies: Offshore wind (DC), solar, and dispatchable oil
-- Solver: HiGHS (linear optimization)
-- Visualization: Daily dispatch vs demand comparison
-- Tools: PyPSA-Eur, Snakemake, Python, Matplotlib
+⚙️ Key Features
+- Timeframe: July 1–7, 2023
+- Data sources:
+  - ERA5 (weather)
+  - ENTSO-E (electricity demand)
+- Technologies modeled:
+  - Offshore Wind (DC-connected)
+  - Solar PV
+  - Thermal (CCGT, oil, coal)
+- Optimization:
+  - Linear OPF using the HiGHS solver
+  - PyPSA-Eur configuration adapted for single-country focus
+- Visualization: 
+  - Generator dispatch vs demand
+  - Resource utilization over time
 
-## Project Structure
+🛠 Tools & Stack
+- PyPSA-Eur
+- Snakemake
+- Python (Pandas, Matplotlib)
+- Git & GitHub
+
+📁 Project Structure
+nl-electricity-summer-2023/
+├── config.yaml               # Custom configuration for NL, 2023, summer week
+├── run.py                    # Script to load, run, and plot results
+├── results/                  # Output files (networks, plots)
+├── plots/                    # Dispatch vs demand visualizations
+├── README.md                 # You're here
+└── .gitignore
+
+📈 Sample Output
+
+<img width="1200" height="600" alt="dispatch_plot" src="https://github.com/user-attachments/assets/ae74e65b-fd87-4371-9cc4-19cd77bbb2e1" />
+
+🧠 Learnings
+- Customized PyPSA-Eur for single-country modeling (NL)
+- Resolved solver configuration, cutout retrieval, and dispatch issues
+- Gained experience in scenario design, constraint formulation, and interpreting results
+
+🚀 Future Improvements
+- Include batteries and hydrogen electrolysis
+- Add CO₂ cap optimization
+- Use finer time resolution (e.g. hourly)
+- Compare summer vs winter performance
+
+📬 Contact
+Feel free to reach out via GitHub or LinkedIn for questions, collaborations, or rants about PyPSA bugs.
+
+
+
+
+
