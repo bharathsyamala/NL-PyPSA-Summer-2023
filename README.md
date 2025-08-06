@@ -28,11 +28,12 @@ Model and analyze how the Netherlands’ electricity demand can be met using a m
 
 📁 Project Structure
 nl-electricity-summer-2023/
-├── config.yaml               # Custom configuration for NL, 2023, summer week
-├── run.py                    # Script to load, run, and plot results
-├── results/                  # Output files (networks, plots)
-├── plots/                    # Dispatch vs demand visualizations
-├── README.md                 # You're here
+├── config.yaml                                  # Custom configuration for NL, 2023, summer week
+├── result_analysis_script.py                    # Script to load, run, and plot results
+├── resources/                                   # Docs, papers, links, or maps used as refs
+├── results/                                     # Output files (networks, plots)
+├── dispatch_plot.png                            # Dispatch vs demand visualizations
+├── README.md                                    # You're here
 └── .gitignore
 
 📈 Sample Output
@@ -52,6 +53,7 @@ nl-electricity-summer-2023/
 
 📬 Contact
 Feel free to reach out via GitHub or LinkedIn for questions, collaborations, or rants about PyPSA bugs.
+
 
 
 
